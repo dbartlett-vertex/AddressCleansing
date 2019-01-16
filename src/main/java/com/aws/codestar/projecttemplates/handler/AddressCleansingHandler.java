@@ -55,7 +55,7 @@ public class AddressCleansingHandler implements RequestHandler<Object, Object> {
         mapping.put("UserField7Idx", 1);
         mapping.put("UserField8Idx", 1);
         mapping.put("UserField9Idx", 1);
-        array.add(mapping);
+        array.put(mapping);
         
         json.put("Mapping", array);
         
