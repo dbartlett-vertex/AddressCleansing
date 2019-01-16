@@ -37,7 +37,7 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /HelloWorld
             Method: get
 
   PostHelloWorld:
@@ -53,7 +53,7 @@ Resources:
         PostEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /HelloWorld
             Method: post
 
   GetAddressCleansing:
@@ -69,7 +69,7 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /AddressCleansing
             Method: get
 
   PostAddressCleansing:
@@ -85,7 +85,7 @@ Resources:
         PostEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /AddressCleansing
             Method: post
   
   LambdaExecutionRole:
