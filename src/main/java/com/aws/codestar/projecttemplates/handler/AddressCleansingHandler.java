@@ -59,6 +59,7 @@ public class AddressCleansingHandler implements RequestHandler<Object, Object> {
         
         json.put("Mapping", array);
         
+        // comment for testing
         message = json.toString();
         
         headers.put("Content-Type", "application/json");
