@@ -56,9 +56,9 @@ public class AddressCleansingHandler implements RequestHandler<Object, Object> {
         mapping.put("UserField9Idx", 1);
         array.add(item);
         
-        json.put("Mapping", array)
+        json.put("Mapping", array);
         
-        message = json.toString()
+        message = json.toString();
         
         headers.put("Content-Type", "application/json");
         return new GatewayResponse(message, headers, 200);
